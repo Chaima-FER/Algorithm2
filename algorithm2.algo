@@ -1,4 +1,4 @@
-function insertionSort(3514) {
+function insertionSort() {
     for (let i = 1; i < arr.length; i++) {
         let key = arr[i];
         let j = i - 1;
@@ -14,32 +14,28 @@ function insertionSort(3514) {
     }
 }
 
-/*Itération 1 :*/
-for ( key=arr[i]=arr[1]=5
-let j=1-1 j=0
-) 
-while (j=0>=0 true & arr[j=3]>key=5 false)
-and arr[j+1 = 0+1=1]=5 arr[0]=3
+FUNCTION insertionSort(VAR arr : ARRAY_OF INTEGER) : ARRAY_OF INTEGER;
+VAR
+ i : INTEGER ; 
+ L : INTEGER:= length(arr) ;
+ key : INTEGER := arr[i] ; 
+ j : INTEGER := i-1 ; 
+ 
+BEGIN
+  FOR i FROM 1 TO l-1 STEP 1  DO
+        WHILE (j>=0 and arr[j]>key) DO
+            arr[j+1]:=arr[j];
+            j:= j-1 ; 
+            
 
-/*Itération 2 :*/
-for ( key=arr[2]=1) let j=2-1 j=1
-while (j=1>0 true && arr[1]=5 >key=1 true )
-and arr j+1=2 = arr(1)
-j=1-1=0 
-result : (3 1 5 4) 
+        END_WHILE
+        arr[j+1]:= key ;
+    END_FOR
+    
 
-/*Itération 3 :*/
-(3 1 5 4)
-for (key=arr[3]=4) let j=3-1 j=2
-while (j=2>=0 true && arr[2]=5> key=4 true)
-and arr[3]=arr[2]
-j=2-1=1
-result : (3 1 4 5)
 
-/*Itération 4 :*/
-
-( 3 1 5 4)
-for (key=)
+    RETURN arr ;
+END
 
 
 
